@@ -1,4 +1,0 @@
-D:/Project/TestProject/build/CMakeFiles/dispatcher.dir
-D:/Project/TestProject/build/CMakeFiles/test.dir
-D:/Project/TestProject/build/CMakeFiles/edit_cache.dir
-D:/Project/TestProject/build/CMakeFiles/rebuild_cache.dir

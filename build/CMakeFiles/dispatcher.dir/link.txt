@@ -1,3 +1,0 @@
-D:\Software\CMake\bin\cmake.exe -E rm -f CMakeFiles\dispatcher.dir/objects.a
-D:\Software\mingw64\mingw64\bin\ar.exe qc CMakeFiles\dispatcher.dir/objects.a @CMakeFiles\dispatcher.dir\objects1.rsp
-D:\Software\mingw64\mingw64\bin\c++.exe -shared -o bin\libdispatcher.dll -Wl,--out-implib,lib\libdispatcher.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\dispatcher.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\dispatcher.dir\linkLibs.rsp

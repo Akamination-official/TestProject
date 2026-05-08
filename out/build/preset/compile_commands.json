@@ -1,8 +1,0 @@
-[
-{
-  "directory": "D:/Project/TestProject/out/build/preset",
-  "command": "D:\\Software\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\TestProject.dir\\main.cpp.obj -c D:\\Project\\TestProject\\main.cpp",
-  "file": "D:/Project/TestProject/main.cpp",
-  "output": "CMakeFiles/TestProject.dir/main.cpp.obj"
-}
-]
