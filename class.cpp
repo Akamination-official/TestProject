@@ -42,24 +42,24 @@ namespace {
 
 core::RootTuple rootTuple = std::make_tuple(
     std::make_tuple(
-        std::make_tuple(c1_1, c1_2),
-        std::make_tuple(c2_1, c2_2)
+        std::tie(c1_1, c1_2),
+        std::tie(c2_1, c2_2)
     ),
     std::make_tuple(
-        std::make_tuple(c3_1, c3_2, c3_3),
-        std::make_tuple(c4_1, c4_2)
+        std::tie(c3_1, c3_2, c3_3),
+        std::tie(c4_1, c4_2)
     ),
     std::make_tuple(
-        std::make_tuple(c5_1, c5_2, c5_3),
-        std::make_tuple(c6_1, c6_2, c6_3)
+        std::tie(c5_1, c5_2, c5_3),
+        std::tie(c6_1, c6_2, c6_3)
     ),
     std::make_tuple(
-        std::make_tuple(c7_1, c7_2, c7_3),
-        std::make_tuple(c8_1, c8_2, c8_3)
+        std::tie(c7_1, c7_2, c7_3),
+        std::tie(c8_1, c8_2, c8_3)
     ),
     std::make_tuple(
-        std::make_tuple(c9_1, c9_2, c9_3),
-        std::make_tuple(c10_1, c10_2, c10_3)
+        std::tie(c9_1, c9_2, c9_3),
+        std::tie(c10_1, c10_2, c10_3)
     )
 );
 

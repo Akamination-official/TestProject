@@ -108,16 +108,16 @@ struct Key {
     int id3;
 };
 
-using Layer3Class1 = std::tuple<Class1*, Class1*>;
-using Layer3Class2 = std::tuple<Class2*, Class2*>;
-using Layer3Class3 = std::tuple<Class3*, Class3*, Class3*>;
-using Layer3Class4 = std::tuple<Class4*, Class4*>;
-using Layer3Class5 = std::tuple<Class5*, Class5*, Class5*>;
-using Layer3Class6 = std::tuple<Class6*, Class6*, Class6*>;
-using Layer3Class7 = std::tuple<Class7*, Class7*, Class7*>;
-using Layer3Class8 = std::tuple<Class8*, Class8*, Class8*>;
-using Layer3Class9 = std::tuple<Class9*, Class9*, Class9*>;
-using Layer3Class10 = std::tuple<Class10*, Class10*, Class10*>;
+using Layer3Class1 = std::tuple<Class1*&, Class1*&>;
+using Layer3Class2 = std::tuple<Class2*&, Class2*&>;
+using Layer3Class3 = std::tuple<Class3*&, Class3*&, Class3*&>;
+using Layer3Class4 = std::tuple<Class4*&, Class4*&>;
+using Layer3Class5 = std::tuple<Class5*&, Class5*&, Class5*&>;
+using Layer3Class6 = std::tuple<Class6*&, Class6*&, Class6*&>;
+using Layer3Class7 = std::tuple<Class7*&, Class7*&, Class7*&>;
+using Layer3Class8 = std::tuple<Class8*&, Class8*&, Class8*&>;
+using Layer3Class9 = std::tuple<Class9*&, Class9*&, Class9*&>;
+using Layer3Class10 = std::tuple<Class10*&, Class10*&, Class10*&>;
 
 using Layer2Group0 = std::tuple<Layer3Class1, Layer3Class2>;
 using Layer2Group1 = std::tuple<Layer3Class3, Layer3Class4>;
